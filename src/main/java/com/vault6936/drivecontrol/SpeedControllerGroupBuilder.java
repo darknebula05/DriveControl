@@ -15,6 +15,10 @@ public class SpeedControllerGroupBuilder {
         return this;
     }
 
+    public SpeedControllerGroupBuilder addSpeedController(SpeedController speedController) {
+        return addSpeedController(speedController, false);
+    }
+
     public SpeedControllerGroup build() {
         return new SpeedControllerGroup((SpeedController[]) speedControllers.toArray());
     }
