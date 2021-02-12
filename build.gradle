@@ -1,6 +1,7 @@
 plugins {
-    id 'java'
+    id 'java-library'
     id "edu.wpi.first.GradleRIO" version "2021.2.2"
+    id 'maven-publish'
 }
 
 group 'com.vault6936'
@@ -19,4 +20,12 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
 }
