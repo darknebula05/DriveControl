@@ -1,0 +1,16 @@
+{
+  "fileName": "DriveControl.json",
+  "javaDependencies": [
+    {
+      "artifactId": "DriveControl",
+      "groupId": "com.darknebula05",
+      "version": "1.0-SNAPSHOT"
+    }
+  ],
+  "jsonUrl": "http://www.github.com/darknebula05/DriveControl/raw/DriveControl.json",
+  "mavenUrls": [
+    "http://www.github.com/darknebula05/DriveControl/raw/repository/"
+  ],
+  "name": "DriveControl",
+  "version": "1.0-SNAPSHOT"
+}
