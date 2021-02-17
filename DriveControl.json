@@ -7,9 +7,9 @@
       "version": "1.0-SNAPSHOT"
     }
   ],
-  "jsonUrl": "http://www.github.com/darknebula05/DriveControl/raw/DriveControl.json",
+  "jsonUrl": "https://www.github.com/darknebula05/DriveControl/raw/repository/DriveControl.json",
   "mavenUrls": [
-    "http://www.github.com/darknebula05/DriveControl/raw/repository/"
+    "https://www.github.com/darknebula05/DriveControl/raw/repository/"
   ],
   "name": "DriveControl",
   "version": "1.0-SNAPSHOT"
